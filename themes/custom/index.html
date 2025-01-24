@@ -30,9 +30,9 @@
             </a>
             {% endfor %}
             {% for wallet in config.crypto_wallets %}
-            <button class="link-item crypto-item" data-address="{{ wallet.address }}">
+            <a class="link-item crypto-item" href="#" data-address="{{ wallet.address }}">
                 <p class="link-text">{{ wallet.name }}</p>
-            </button>
+            </a>
             {% endfor %}
         </section>
     </main>

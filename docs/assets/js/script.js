@@ -3,7 +3,8 @@ const yearDate = new Date().getFullYear().toString();
 document.querySelector(".year").innerText = yearDate;
 
 document.querySelectorAll('.crypto-item').forEach(button => {
-    button.addEventListener('click', async () => {
+    button.addEventListener('click', async (event) => {
+        event.preventDefault();  // Prevent default link behavior
         try {
             const address = button.getAttribute('data-address');
             await navigator.clipboard.writeText(address);

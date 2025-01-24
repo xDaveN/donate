@@ -60,7 +60,6 @@ body {
   color: var(--text-color);
   padding: var(--padding);
 }
-/* Header Styles */
 header {
   padding: var(--padding) 0;
   margin-bottom: var(--header-margin-bottom);
@@ -88,7 +87,6 @@ h1 {
   color: var(--bio-color);
   margin-bottom: 1rem;
 }
-/* Main Content Styles */
 main {
   width: 100%;
   flex: 1;
