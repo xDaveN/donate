@@ -15,6 +15,8 @@ links:
 crypto_wallets:
   - name: "Bitcoin"
     address: "your-bitcoin-wallet-address"
-  - name: "Ethereum"
+  - name: "Monero"
+    address: "your-ethereum-wallet-address"
+  - name: "Solana"
     address: "your-ethereum-wallet-address"
 theme: "custom"
