@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 /* Variables */
 :root {
   --max-width: 600px;
@@ -13,20 +12,17 @@
   --header-margin-bottom: 1rem;
   --line-height: 2;
   --font-size: 16px;
-
   --primary-color-light: #ffffff;
   --background-color-light: #f0f0f0;
   --text-color-light: #333;
   --link-color-light: #1a73e8;
   --bio-color-light: #666;
-
   --primary-color-dark: #1e1e1e;
   --background-color-dark: #121212;
   --text-color-dark: #e0e0e0;
   --link-color-dark: #8ab4f8;
   --bio-color-dark: #aaa;
 }
-
 /* Light Theme */
 @media (prefers-color-scheme: light) {
   :root {
@@ -37,7 +33,6 @@
     --bio-color: var(--bio-color-light);
   }
 }
-
 /* Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -48,14 +43,12 @@
     --bio-color: var(--bio-color-dark);
   }
 }
-
 /* Global Styles */
 html {
   font-family: var(--font-family);
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
-
 body {
   max-width: var(--max-width);
   min-height: 100vh;
@@ -67,7 +60,6 @@ body {
   color: var(--text-color);
   padding: var(--padding);
 }
-
 /* Header Styles */
 header {
   padding: var(--padding) 0;
@@ -79,7 +71,6 @@ header {
   align-items: center;
   text-align: center;
 }
-
 .avatar {
   width: 100px;
   height: 100px;
@@ -88,24 +79,20 @@ header {
   border: 2px solid var(--primary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
   font-size: 24px;
   margin-bottom: 0.5rem;
 }
-
 .bio {
   font-size: 14px;
   color: var(--bio-color);
   margin-bottom: 1rem;
 }
-
 /* Main Content Styles */
 main {
   width: 100%;
   flex: 1;
 }
-
 .links {
   display: flex;
   flex-direction: column;
@@ -114,7 +101,6 @@ main {
   overflow-y: auto;
   max-height: 400px;
 }
-
 .link-item {
   display: block;
   padding: 16px 20px;
@@ -124,19 +110,17 @@ main {
   border-radius: 12px;
   border: 1px solid var(--link-color);
   transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
 }
-
 .link-item:hover,
 .link-item:focus {
   background-color: var(--link-color);
   color: var(--primary-color);
 }
-
 .link-item p {
   line-height: 1.5;
   font-weight: 500;
 }
-
 /* Footer Styles */
 footer {
   width: 100%;
@@ -148,20 +132,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
 /* ScrollBar */
 ::-webkit-scrollbar {
   width: 5px;
 }
-
 ::-webkit-scrollbar-track {
   background: transparent;
 }
-
 ::-webkit-scrollbar-thumb {
   background: transparent;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
