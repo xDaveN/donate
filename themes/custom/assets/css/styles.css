@@ -121,6 +121,7 @@ main {
 .link-item .link-text {
   line-height: 1.5;
   font-weight: 500;
+  font-family: inherit;
   margin: 0;
 }
 /* Footer Styles */
