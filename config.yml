@@ -1,0 +1,20 @@
+name: "DaveN"
+picture: "assets/img/picture.jpg"
+bio: "give me money"
+meta:
+  lang: "en"
+  description: "give me money"
+  title: "DaveN"
+  author: "DaveN"
+  siteUrl: "https://xdaven.github.io/donate/"
+links:
+  - name: "PayPal"
+    url: "https://paypal.me/manlikedaven"
+  - name: "Revolut"
+    url: "https://revolut.me/xdaven"
+crypto_wallets:
+  - name: "Bitcoin"
+    address: "your-bitcoin-wallet-address"
+  - name: "Ethereum"
+    address: "your-ethereum-wallet-address"
+theme: "custom"
