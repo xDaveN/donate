@@ -26,12 +26,12 @@
         <section class="links">
             {% for link in config.links %}
             <a class="link-item" href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
-                <p>{{ link.name }}</p>
+                <p class="link-text">{{ link.name }}</p>
             </a>
             {% endfor %}
             {% for wallet in config.crypto_wallets %}
             <button class="link-item crypto-item" data-address="{{ wallet.address }}">
-                <p>{{ wallet.name }}</p>
+                <p class="link-text">{{ wallet.name }}</p>
             </button>
             {% endfor %}
         </section>

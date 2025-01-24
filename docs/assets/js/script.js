@@ -7,10 +7,10 @@ document.querySelectorAll('.crypto-item').forEach(button => {
         try {
             const address = button.getAttribute('data-address');
             await navigator.clipboard.writeText(address);
-            const originalText = button.querySelector('p').textContent;
-            button.querySelector('p').textContent = "Address copied";
+            const originalText = button.querySelector('.link-text').textContent;
+            button.querySelector('.link-text').textContent = "Address copied";
             setTimeout(() => {
-                button.querySelector('p').textContent = originalText;
+                button.querySelector('.link-text').textContent = originalText;
             }, 3000);
         } catch (err) {
             console.error('Failed to copy text: ', err);

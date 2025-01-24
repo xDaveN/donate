@@ -103,6 +103,7 @@ main {
 }
 .link-item {
   display: block;
+  text-align: center;
   padding: 16px 20px;
   text-decoration: none;
   color: var(--link-color);
@@ -117,9 +118,10 @@ main {
   background-color: var(--link-color);
   color: var(--primary-color);
 }
-.link-item p {
+.link-item .link-text {
   line-height: 1.5;
   font-weight: 500;
+  margin: 0;
 }
 /* Footer Styles */
 footer {
