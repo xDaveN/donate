@@ -14,9 +14,9 @@ links:
     url: "https://revolut.me/xdaven"
 crypto_wallets:
   - name: "Bitcoin"
-    address: "your-bitcoin-wallet-address"
+    address: "bc1qwfpz2207enlt9s4zwpu6c2edv0dfelm2lf9q5q"
   - name: "Monero"
-    address: "your-ethereum-wallet-address"
+    address: "8ARMrc5NWyuETHqgimgx3FhSaxWrnzxAgVqm1Jd3UV9d8sw4CCJMniJ14a3X9GsXY6eBFATpAFVk2GLpH7HPXi8VGbGrvyF"
   - name: "Solana"
-    address: "your-ethereum-wallet-address"
+    address: "FmJkh7JiKkjzyNqsvDJBrwuGYDCJzDhuWGTkJBdYb8kq"
 theme: "custom"
